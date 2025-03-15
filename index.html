@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escape Uncle’s Basement 😱</title>
+    <title>Escape the Room - Funny Edition</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="game-container">
-        <h1>Trapped in Uncle’s Basement 🩸</h1>
-        <p id="story-text">You wake up in a dark, damp basement. Chains rattle nearby. You hear footsteps above. You must escape…</p>
-        <div class="choices">
-            <button id="choice1">Look for a key 🔑</button>
-            <button id="choice2">Break the door 🚪</button>
-            <button id="choice3">Search for another way out 🕳️</button>
-        </div>
-        <p id="outcome"></p>
-        <audio id="scary-sound" src="scream.mp3"></audio>
+    <div id="game">
+        <h1>You're Trapped in a Room!</h1>
+        <p>Solve the puzzles to escape.</p>
+        <div id="puzzle-container"></div>
+        <button id="start-btn">Start Game</button>
+        <p id="message"></p>
     </div>
     <script src="script.js"></script>
 </body>
